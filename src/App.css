@@ -1,0 +1,89 @@
+.app{
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px;
+  border: solid 3px;
+  border-color: blue;
+  width: 750px;
+}
+
+.app h1{
+  font-family:FreeMono, monospace;
+  color :lightskyblue;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.high-score-table{
+  margin: 30px auto;
+  width: 700px;
+  border: solid 16px;
+  border-color:rgba(128, 255, 0, 0.899);
+}
+
+.high-score-table h2 {
+  font-family:FreeMono, monospace;
+  color :lightskyblue;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+table {
+  width : 90%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.table, td{
+  border: 2px solid black;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.high-score-table td:first-child {
+  border-right : none;
+}
+
+.high-score-table td:nth-child(2){
+  border-left : none;
+}
+
+.th {
+   background-color:  white;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+.world-table h1{
+  font-family:FreeMono, monospace;
+  color :lightskyblue;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.world-table {
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px;
+  border: solid 3px;
+  border-color: blue;
+  width: 750px;
+}
+.world-score-table h2{
+  font-family:FreeMono, monospace;
+  color :lightskyblue;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.world-score-table td:first-child{
+  border-right: none;
+}
+
+.world-score-table td:nth-child(2){
+  border-left: none;
+}
